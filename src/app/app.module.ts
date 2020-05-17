@@ -8,6 +8,7 @@ import { SignupComponent } from './signup/signup.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ForgotPassComponent } from './forgot-pass/forgot-pass.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ForgotPassComponent } from './forgot-pass/forgot-pass.component';
     SignupComponent,
     HeaderComponent,
     FooterComponent,
-    ForgotPassComponent
+    ForgotPassComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,36 +1,124 @@
 <!--Main Navigation-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="desktopview">
+	<div class="app-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="logo">
+						<a routerLink="/">Health Concierge</a>
+					</div>
+				</div>
+				<div class="col-md-9 ">
 
-<!--  Show this only on mobile to medium screens  -->
-  <a class="navbar-brand d-lg-none" routerLink="/"><i class="fa fa-heartbeat"></i></a>
+					<ul class="d-flex justify-content-end topnav">
+						<li><i class="fa fa-envelope" aria-hidden="true"></i> info@webdemo.com</li>
+						<li><i class="fa fa-phone" aria-hidden="true"></i> 12345 67890</li>
+						<li><i class="fa fa-bell" aria-hidden="true"></i></li>
+						<li class="dropdown user user-menu myaccountmenu">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+										<img src="assets/img/user.png" class="img-circle" alt="User Image">
+										<span> Administrator1 <i class="caret"></i></span>
+									</a>
+									<ul class="dropdown-menu pull-right">
+                    <li><a routerLink="/login">Login</a></li>
+                    <li><a routerLink="/dashboard">Dashboard</a></li>
+										<li><a href="">Dashboard</a></li>
+										<li><a href="">My Services</a></li>
+										<li><a href="">Welness</a></li>
+										<li><a href="">Logout</a></li>
+									</ul>
+								</li>
+				   </ul>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="navsection shadow">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg">
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" routerLink="/login">Login</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" routerLink="/dashboard"> <img src="assets/img/home.png" />Dashboard</a>
+            </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#"><img src="assets/img/services.png" />Services</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#"><img src="assets/img/welness.png" />Welness</a>
+					  </li>
+					</ul>
 
-<!--  Use flexbox utility classes to change how the child elements are justified  -->
-  <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+				</div>
+			</nav>
+		</div>
+	</div>
+</div>
+<div class="mobileview">
+	<div class="app-header-mobile">
+    	<div class="app-mobilemeunu">
+            <a href="#menu" class="mobmenu"><span></span></a>
+            <nav id="menu">
+            menu
+				<ul>
+					<li><a routerLink="/dashboard"><img src="assets/img/home.png" />Dashboard</a></li>
+          <li><a href="#"><img src="assets/img/services.png" />Services</a></li>
+          <li><a href="#"><img src="assets/img/welness.png" />Welness</a></li>
+					<!--/*<li><a href="#about">About us</a>
+						<ul>
+							<li><a href="#about/history"><img src="assets/img/services.png" />Services</a></li>
+							<li><a href="#about/team">The team</a>
+								<ul>
+									<li><a href="#about/team/management">Management</a></li>
+									<li><a href="#about/team/sales">Sales</a></li>
+									<li><a href="#about/team/development">Development</a></li>
+								</ul>
+							</li>
+							<li><a href="#about/address">Our address</a></li>
+						</ul>
+					</li>*/-->
 
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link active" routerLink="/" ><i class="fa fa-home"></i> <span class="sr-only">(current)</span></a>
-      </li>
-    </ul>
+				</ul>
+             </nav>
+        </div>
 
-
-<!--   Show this only lg screens and up   -->
-    <a class="navbar-brand d-none d-lg-block" routerLink="/"><i class="fa fa-heartbeat"></i></a>
-
-
-
-    <ul class="navbar-nav" id="navbarToggle">
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/login">Login</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/signup">Signup</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+        <div class="logo">
+            <a href="">Health Concierge</a>
+        </div>
+      	<div class="mobile-headericon">
+        	<ul>
+            	<li>
+        			<a href=""><i class="fa fa-bell" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                	<div class="dropdown">
+                               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="assets/img/user.png" class="img-circle" alt="User Image">
+                            </a>
+                              <div class="dropdown-menu dropdown-menu-right myaccount-mobile-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" routerLink="/dashboard">Dashboard</a>
+                                <a class="dropdown-item" href="#">My Services</a>
+                                <a class="dropdown-item" href="#">Welness</a>
+                              </div>
+                            </div>
+                </li>
+                <li>
+                	<div class="dropdown otherinfo-dropdown">
+                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                			<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                        </a>
+                   		<div class="dropdown-menu dropdown-menu-right myaccount-mobile-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> info@webdemo.com</a>
+                            <a class="dropdown-item" href="#"><i class="fa fa-phone" aria-hidden="true"></i> 12345 67890</a>
+                      	</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 <!--Main Navigation-->

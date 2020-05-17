@@ -1,0 +1,531 @@
+<div class="wrapper">
+	<div class="container">
+		<div class="row slider topslickwidget">
+			<div class="col-lg-3 col-md-6 col-12 col-sm-12">
+				<div class="info-box shadow-lg bg-white p-1 mb-5 mob-mb-0 rounded shadedtop">
+					<span class="info-icon-box">
+						<img src="assets/img/bloodpressure.png" />
+					</span>
+					<div class="info-content">
+						<h3>Current Blood Pressure</h3>
+						<ul>
+							<li>BP High
+							<div class="clear"></div>
+							<span>122</span>
+							</li>
+							<li>BP Low
+							<div class="clear"></div>
+							<span>122</span>
+							</li>
+						</ul>
+						<div class="download">
+							<img src="assets/img/download.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 col-sm-12">
+				<div class="info-box shadow-lg bg-white p-1 mb-5 mob-mb-0 rounded shadedtop">
+					<span class="info-icon-box">
+						<img src="assets/img/cal.png" />
+					</span>
+					<div class="info-content">
+						<h3>Current Blood Sugar</h3>
+						<ul>
+							<li>Fasting
+							<div class="clear"></div>
+							<span>118</span>
+							</li>
+							<li>PP
+							<div class="clear"></div>
+							<span>230</span>
+							</li>
+						</ul>
+						<div class="download">
+							<img src="assets/img/download.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 col-sm-12">
+				<div class="info-box shadow-lg bg-white p-1 mb-5 mob-mb-0 rounded shadedtop">
+					<span class="info-icon-box">
+						<img src="assets/img/heart.png" />
+					</span>
+					<div class="info-content">
+						<h3>Current Heart Rate</h3>
+						<ul>
+							<li>Heart Beat
+							<div class="clear"></div>
+							<span>122</span>
+							</li>
+
+						</ul>
+						<div class="download">
+							<img src="assets/img/download.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 col-sm-12">
+				<div class="info-box shadow-lg bg-white p-1 mb-5 mob-mb-0 rounded shadedtop">
+					<span class="info-icon-box">
+						<img src="assets/img/oth.png" />
+					</span>
+					<div class="info-content">
+						<h3>Current Others</h3>
+						<ul>
+							<li>BP High
+							<div class="clear"></div>
+							<span>122</span>
+							</li>
+							<li>BP Low
+							<div class="clear"></div>
+							<span>122</span>
+							</li>
+						</ul>
+						<div class="download">
+							<img src="assets/img/download.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class=" shadow-lg bg-white p-0 mb-5 rounded shadedtop2">
+					<div class="tabbedheader">
+						<ul class="nav nav-pills">
+						  <li class="active"><a data-toggle="pill" href="#home" class="active"><img src="assets/img/bloodpressure.png" class="tabbedimg"/>&nbsp;<span>Blood Pressure Chart</span></a></li>
+						  <li><a data-toggle="pill" href="#menu1"><img src="assets/img/heart.png" class="tabbedimg"/><span>Blood Sugar Chart</span></a></li>
+						  <li><a data-toggle="pill" href="#menu2"><img src="assets/img/cal.png" class="tabbedimg"/><span>Heart Rate Chart</span></a></li>
+						  <li><a data-toggle="pill" href="#menu3"><img src="assets/img/oth.png" class="tabbedimg"/><span>Other Vital Chart</span></a></li>
+						</ul>
+					</div>
+
+					<div class="tab-content">
+					  <div id="home" class="tab-pane active">
+						<div id="chart"></div>
+						<div class="row d-flex ">
+							<div class="col-md-2 col-6 col-lg-4">
+								<div class="dropdown">
+								  <button class="btn btn-dropcustom dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Last Month
+								  </button>
+								  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item" href="#">Last Month</a>
+									<a class="dropdown-item" href="#">Last Month</a>
+								  </div>
+								</div>
+							</div>
+							<div class="col-md-3 col-6 col-lg-4 text-center">
+								<ul class="indicator">
+									<li><i class="fa fa-angle-left" aria-hidden="true"></i></li>
+									<li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+							<div class="col-md-7 col-12 col-lg-4 text-right">
+								<ul class="chartindicator">
+									<li><span class="high"></span> High Blood Pressure</li>
+									<li><span class="low"></span> Low Blood Pressure</li>
+								</ul>
+							</div>
+						</div>
+					  </div>
+					  <div id="menu1" class="tab-pane fade">
+					   <div id="chart1"></div>
+					   <div class="row d-flex ">
+							<div class="col-md-2 col-6 col-lg-4">
+								<div class="dropdown">
+								  <button class="btn btn-dropcustom dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Last Month
+								  </button>
+								  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item" href="#">Last Month</a>
+									<a class="dropdown-item" href="#">Last Month</a>
+								  </div>
+								</div>
+							</div>
+							<div class="col-md-3 col-6 col-lg-4 text-center">
+								<ul class="indicator">
+									<li><i class="fa fa-angle-left" aria-hidden="true"></i></li>
+									<li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+							<div class="col-md-7 col-12 col-lg-4 text-right">
+								<ul class="chartindicator">
+									<li><span class="high"></span> High Blood Pressure</li>
+									<li><span class="low"></span> Low Blood Pressure</li>
+								</ul>
+							</div>
+						</div>
+					  </div>
+					  <div id="menu2" class="tab-pane fade">
+						<div id="chart2"></div>
+						<div class="row d-flex ">
+							<div class="col-md-2 col-6 col-lg-4">
+								<div class="dropdown">
+								  <button class="btn btn-dropcustom dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Last Month
+								  </button>
+								  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item" href="#">Last Month</a>
+									<a class="dropdown-item" href="#">Last Month</a>
+								  </div>
+								</div>
+							</div>
+							<div class="col-md-3 col-6 col-lg-4 text-center">
+								<ul class="indicator">
+									<li><i class="fa fa-angle-left" aria-hidden="true"></i></li>
+									<li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+							<div class="col-md-7 col-12 col-lg-4 text-right">
+								<ul class="chartindicator">
+									<li><span class="high"></span> High Blood Pressure</li>
+									<li><span class="low"></span> Low Blood Pressure</li>
+								</ul>
+							</div>
+						</div>
+					  </div>
+					   <div id="menu3" class="tab-pane fade">
+						<div id="chart3"></div>
+						<div class="row d-flex ">
+							<div class="col-md-2 col-6 col-lg-4">
+								<div class="dropdown">
+								  <button class="btn btn-dropcustom dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Last Month
+								  </button>
+								  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item" href="#">Last Month</a>
+									<a class="dropdown-item" href="#">Last Month</a>
+								  </div>
+								</div>
+							</div>
+							<div class="col-md-3 col-6 col-lg-4 text-center">
+								<ul class="indicator">
+									<li><i class="fa fa-angle-left" aria-hidden="true"></i></li>
+									<li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+							<div class="col-md-7 col-12 col-lg-4 text-right">
+								<ul class="chartindicator">
+									<li><span class="high"></span> High Blood Pressure</li>
+									<li><span class="low"></span> Low Blood Pressure</li>
+								</ul>
+							</div>
+						</div>
+					  </div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="shadow-lg bg-white p-0 mb-5 rounded">
+					<div class="card">
+						<div class="card-header borderbottom2pxgrey shadedtop3">
+							<div class="row d-flex align-items-center">
+								<div class="col-md-4 col-12  col-sm-4 mob-text-center"><h3 class="card-title">Prescription History</h3></div>
+								<div class="col-md-4 col-6  col-sm-4 d-flex justify-content-center">
+									<div class="dropdown ">
+										  <button class="btn btn-dropcustom dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										   Year
+										  </button>
+										  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="#">Last Month</a>
+											<a class="dropdown-item" href="#">Last Month</a>
+										  </div>
+										</div>
+										<div class="dropdown" style="display:inline">
+										  <button class="btn btn-dropcustom dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Month
+										  </button>
+										  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="#">Last Month</a>
+											<a class="dropdown-item" href="#">Last Month</a>
+										  </div>
+										</div>
+								</div>
+								<div class="col-md-4  col-sm-4 col-6 text-right">
+									<img src="assets/img/download.png" />
+								</div>
+							</div>
+						</div>
+						<div class="card-body p-0">
+							<div class="desktopview">
+								<a href="javascript:void(0);" class="indicator-carousel-left" id="left"><i class="fa fa-angle-left"></i></a>
+								<div id="waterwheelCarousel">
+									<img src="assets/gellery/images/testImage1.jpg" alt="Test Image 1"/>
+									<img src="assets/gellery/images/testImage2.jpg" alt="Test Image 2" />
+									<img src="assets/gellery/images/testImage3.jpg" alt="Test Image 3" />
+									<img src="assets/gellery/images/testImage4.jpg" alt="Test Image 4" />
+									<img src="assets/gellery/images/testImage5.jpg" alt="Test Image 5" />
+									<img src="assets/gellery/images/testImage6.jpg" alt="Test Image 6" />
+									<img src="assets/gellery/images/testImage7.jpg" alt="Test Image 7" />
+									<img src="assets/gellery/images/testImage8.jpg" alt="Test Image 8" />
+									<img src="assets/gellery/images/testImage9.jpg" alt="Test Image 9" />
+									<img src="assets/gellery/images/testImage10.jpg" alt="Test Image 10" />
+									<img src="assets/gellery/images/testImage11.jpg" alt="Test Image 11" />
+								</div>
+								<a href="javascript:void(0);"  class="indicator-carousel-right" id="right"><i class="fa fa-angle-right"></i></a>
+						   </div>
+						   <div class="mobileview">
+								<div class="slider center mobilelayout-slider">
+									<div>
+										 <a href="assets/gellery/images/testImage1.jpg" class="imagepopmobile"><img src="assets/gellery/images/testImage1.jpg" alt="Test Image 2" /></a>
+									</div>
+									<div>
+										 <a href="assets/gellery/images/testImage2.jpg" class="imagepopmobile"><img src="assets/gellery/images/testImage2.jpg" alt="Test Image 2" /></a>
+									</div>
+									<div>
+										 <a href="assets/gellery/images/testImage3.jpg" class="imagepopmobile"><img src="assets/gellery/images/testImage3.jpg" alt="Test Image 2" /></a>
+									</div>
+									<div>
+									 <a href="assets/gellery/images/testImage4.jpg" class="imagepopmobile"><img src="assets/gellery/images/testImage4.jpg" alt="Test Image 2" /></a>
+									</div>
+									<div>
+										<a href="assets/gellery/images/testImage5.jpg" class="imagepopmobile"> <img src="assets/gellery/images/testImage5.jpg" alt="Test Image 2" /></a>
+									</div>
+									<div>
+										 <a href="assets/gellery/images/testImage6.jpg" class="imagepopmobile"><img src="assets/gellery/images/testImage6.jpg" alt="Test Image 2" /></a>
+									</div>
+								</div>
+						   </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-12 col-lg-6 col-sm-12">
+				<div class=" shadow-lg bg-white p-0 mb-5 rounded">
+					<div class="card">
+						<div class="card-header shadedtop4 mob-card-header">
+							<h3 class="card-title">Alergies History</h3>
+							<div class="card-tools ">
+								<input type="text" placeholder="Search here.." name="" id="alergyhistorysearch" class="form-control-text mob-search-field" />
+								<button type="button" class="btn btn-tool" data-card-widget="collapse" id="alergyhistorysearchicon">
+								<i class="fa fa-search"></i>
+							  </button>
+							  <button type="button" class="btn btn-tool" data-card-widget="collapse">
+							   <img src="assets/img/tool1.png" />
+							  </button>
+							   <button type="button" class="btn btn-tool" data-card-widget="collapse">
+								<i class="fa fa-plus-circle"></i>
+							  </button>
+							</div>
+						</div>
+						<div class="card-body  p-0">
+							<table class="table table-custom" style="border-collapse:collapse;">
+								<thead class="darkbg">
+									<tr class="darkbg">
+										<th width="40%">Name</th>
+										<th>Rx</th>
+										<th>CSA</th>
+										<th>Preg</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr colspan="6" data-toggle="collapse" data-target="#demo11" class="accordion-toggle">
+										<td class="collapsetd"><i class="fa fa-angle-up"></i> Pan-D</td>
+										<td><span class="roundData">Rx</span></td>
+										<td><span class="roundData">N</span></td>
+										<td><a href="" class="info">Info</a></td>
+										<td> <span class="roundData"><i class="fa fa-times"></i></span> </td>
+									</tr>
+									<tr class="p">
+										<td colspan="5" class="hiddenRow">
+											<div class="accordian-body collapse p-3" id="demo11">
+												<p>No : <span>1</span></p>
+												<p>Date : <span>12 Jan 2018</span> </p>
+												<p>Description : <span>Good</span> </p>
+												<p>Credit : <span>$150.00</span> </p>
+												<p>Debit : <span></span></p>
+												<p>Balance : <span>$150.00</span></p>
+											</div>
+										</td>
+									</tr>
+									<tr data-toggle="collapse" data-target="#demo21" class="accordion-toggle">
+										<td class="collapsetd"><i class="fa fa-angle-up"></i> Pan-D</td>
+										<td><span class="roundData">Rx</span></td>
+										<td><span class="roundData">N</span></td>
+										<td><a href="" class="info">Info</a></td>
+										<td> <span class="roundData"><i class="fa fa-times"></i></span> </td>
+									</tr>
+									<tr>
+										<td colspan="5" class="hiddenRow">
+											<div id="demo21" class="accordian-body collapse p-3">
+												<p>No : <span>2</span></p>
+												<p>Date : <span>12 Jan 2018</span> </p>
+												<p>Description : <span>Good</span> </p>
+												<p>Credit : <span>$150.00</span> </p>
+												<p>Debit : <span></span></p>
+												<p>Balance : <span>$150.00</span></p>
+											</div>
+										</td>
+									</tr>
+
+									<tr data-toggle="collapse" data-target="#demo31" class="accordion-toggle">
+										<td class="collapsetd"><i class="fa fa-angle-up"></i> Pan-D</td>
+										<td><span class="roundData">Rx</span></td>
+										<td><span class="roundData">N</span></td>
+										<td><a href="" class="info">Info</a></td>
+										<td> <span class="roundData"><i class="fa fa-times"></i></span> </td>
+									</tr>
+									<tr>
+										<td colspan="5"  class="hiddenRow">
+											<div id="demo31" class="accordian-body collapse p-3">
+												<p>No : <span>3</span></p>
+												<p>Date : <span>12 Jan 2018</span> </p>
+												<p>Description : <span>Good</span> </p>
+												<p>Credit : <span>$150.00</span> </p>
+												<p>Debit : <span></span></p>
+												<p>Balance : <span>$150.00</span></p>
+											</div>
+										</td>
+									</tr>
+
+									<tr data-toggle="collapse" data-target="#demo41" class="accordion-toggle">
+										<td class="collapsetd"><i class="fa fa-angle-up"></i> Pan-D</td>
+										<td><span class="roundData">Rx</span></td>
+										<td><span class="roundData">N</span></td>
+										<td><a href="" class="info">Info</a></td>
+										<td> <span class="roundData"><i class="fa fa-times"></i></span> </td>
+									</tr>
+									<tr>
+										<td colspan="5"  class="hiddenRow">
+											<div id="demo41" class="accordian-body collapse p-3">
+												<p>No : <span>4</span></p>
+												<p>Date : <span>12 Jan 2018</span> </p>
+												<p>Description : <span>Good</span> </p>
+												<p>Credit : <span>$150.00</span> </p>
+												<p>Debit : <span></span></p>
+												<p>Balance : <span>$150.00</span></p>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-12 col-lg-6 col-sm-12">
+				<div class=" shadow-lg bg-white p-0 mb-5 rounded ">
+				<div class="card">
+					<div class="card-header shadedtop4 mob-card-header">
+						<h3 class="card-title">Drug Resistance</h3>
+						<div class=""></div>
+						<div class="card-tools">
+							<input type="text" placeholder="Search here.." name="" id="drugregistancesearch" class="form-control-text mob-search-field" />
+							<button type="button" class="btn btn-tool" data-card-widget="collapse" id="drugregistancesearchicon">
+							<i class="fa fa-search"></i>
+						  </button>
+						  <button type="button" class="btn btn-tool" data-card-widget="collapse">
+						   <img src="assets/img/tool1.png" />
+						  </button>
+						   <button type="button" class="btn btn-tool" data-card-widget="collapse">
+							<i class="fa fa-plus-circle"></i>
+						  </button>
+						</div>
+					</div>
+					<div class="card-body  p-0">
+						<table class="table table-custom" style="border-collapse:collapse;">
+							<thead class="darkbg">
+								<tr class="darkbg">
+									<th width="40%">Name</th>
+									<th>Rx</th>
+									<th>CSA</th>
+									<th>Preg</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr colspan="6" data-toggle="collapse" data-target="#demo1" class="accordion-toggle">
+									<td class="collapsetd"><i class="fa fa-angle-up"></i> Pan-D</td>
+									<td><span class="roundData">Rx</span></td>
+									<td><span class="roundData">N</span></td>
+									<td><a href="" class="info">Info</a></td>
+									<td> <span class="roundData"><i class="fa fa-times"></i></span> </td>
+								</tr>
+								<tr class="p">
+									<td colspan="5" class="hiddenRow">
+										<div class="accordian-body collapse p-3" id="demo1">
+											<p>No : <span>1</span></p>
+											<p>Date : <span>12 Jan 2018</span> </p>
+											<p>Description : <span>Good</span> </p>
+											<p>Credit : <span>$150.00</span> </p>
+											<p>Debit : <span></span></p>
+											<p>Balance : <span>$150.00</span></p>
+										</div>
+									</td>
+								</tr>
+								<tr data-toggle="collapse" data-target="#demo2" class="accordion-toggle">
+									<td class="collapsetd"><i class="fa fa-angle-up"></i> Pan-D</td>
+									<td><span class="roundData">Rx</span></td>
+									<td><span class="roundData">N</span></td>
+									<td><a href="" class="info">Info</a></td>
+									<td> <span class="roundData"><i class="fa fa-times"></i></span> </td>
+								</tr>
+								<tr>
+									<td colspan="5" class="hiddenRow">
+										<div id="demo2" class="accordian-body collapse p-3">
+											<p>No : <span>2</span></p>
+											<p>Date : <span>12 Jan 2018</span> </p>
+											<p>Description : <span>Good</span> </p>
+											<p>Credit : <span>$150.00</span> </p>
+											<p>Debit : <span></span></p>
+											<p>Balance : <span>$150.00</span></p>
+										</div>
+									</td>
+								</tr>
+								<tr data-toggle="collapse" data-target="#demo3" class="accordion-toggle">
+								   <td class="collapsetd"><i class="fa fa-angle-up"></i> Pan-D</td>
+									<td><span class="roundData">Rx</span></td>
+									<td><span class="roundData">N</span></td>
+									<td><a href="" class="info">Info</a></td>
+									<td> <span class="roundData"><i class="fa fa-times"></i></span> </td>
+								</tr>
+								<tr>
+									<td colspan="5"  class="hiddenRow">
+										<div id="demo3" class="accordian-body collapse p-3">
+											<p>No : <span>3</span></p>
+											<p>Date : <span>12 Jan 2018</span> </p>
+											<p>Description : <span>Good</span> </p>
+											<p>Credit : <span>$150.00</span> </p>
+											<p>Debit : <span></span></p>
+											<p>Balance : <span>$150.00</span></p>
+										</div>
+									</td>
+								</tr>
+								<tr data-toggle="collapse" data-target="#demo4" class="accordion-toggle">
+								   <td class="collapsetd"><i class="fa fa-angle-up"></i> Pan-D</td>
+									<td><span class="roundData">Rx</span></td>
+									<td><span class="roundData">N</span></td>
+									<td><a href="" class="info">Info</a></td>
+									<td> <span class="roundData"><i class="fa fa-times"></i></span> </td>
+								</tr>
+								<tr>
+									<td colspan="5"  class="hiddenRow">
+										<div id="demo4" class="accordian-body collapse p-3">
+											<p>No : <span>4</span></p>
+											<p>Date : <span>12 Jan 2018</span> </p>
+											<p>Description : <span>Good</span> </p>
+											<p>Credit : <span>$150.00</span> </p>
+											<p>Debit : <span></span></p>
+											<p>Balance : <span>$150.00</span></p>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
